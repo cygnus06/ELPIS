@@ -2,6 +2,7 @@
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    //use the chrome web to launch.
     "version": "0.2.0",
     "configurations": [
 
@@ -9,7 +10,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Jahnavi\\OneDrive\\Documents\\SubS\\Plotter\\Plotter_hope\\index.html",
+            "file": "c:\\Users\\Jahnavi\\OneDrive\\Documents\\SubS\\Plotter\\Plotter_hope\\index.html", //update the path as per the format.
             "runtimeArgs": ["--disable-web-security"] //to get through CORS
         }
     ]
