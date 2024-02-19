@@ -1,2 +1,2 @@
 # SubScale Avionics
-## Team B
+## Team AETHER
