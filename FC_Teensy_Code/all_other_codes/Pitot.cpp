@@ -1,5 +1,6 @@
 #include "Arduino.h"
 #include "defines.h"
+#include "LPS.h"
 #include "math.h"
 float get_Pitot_readings(float temp){ //either from lps or mpu.. for now MPU
 	float v_out1 = analogRead(analog1)*5.0/1023.0;
