@@ -55,7 +55,7 @@ void main(){
 	   check_touchdown(current_vel);
 	}
 	}
-	delay(100);
+	//delay(100);
 	}
 
 }
