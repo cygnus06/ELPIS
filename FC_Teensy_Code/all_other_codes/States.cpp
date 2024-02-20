@@ -6,7 +6,8 @@
  bool Liftoff_detect = false;
  bool Burnout_detect = false;
  bool Apogee_detected = false;
- bool TouchDown_Detect = false;
+ bool TouchDown = false;
+ bool Main_deployed = false;
  double prev_alt = 0;
  double prev_velocity = 0; //get them into an array to give a look-up table outlook
  
