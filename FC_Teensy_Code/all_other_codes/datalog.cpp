@@ -32,7 +32,7 @@ void log_readings(float *acc, float altitude, float velocity, float time){
 	Serial.print(',');
 	Serial.print(altitude);
 	Serial.print(',');
-Serial.print(velocity);
+        Serial.print(velocity);
 	Serial.print(',');
 	Serial.print(acc[0]);
 	Serial.print(',');
