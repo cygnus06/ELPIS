@@ -35,7 +35,7 @@ void detect_LiftOff(double alt, double vel, double time){
 int arr_count = 0;
 int check_count_burnout = 0;
 double prev_reading = 0;
-void Burnout_detect_fun(double alt, double vel, double acc, double time){
+void Burnout_detect_fun(float alt, float vel, float acc, float time){
 	if( (vel < prev_reading )){
 	   check_count_burnout++;
 	}else if(check_count_burnout > 0){
@@ -50,7 +50,7 @@ void Burnout_detect_fun(double alt, double vel, double acc, double time){
 
 double prev_vel = 6324578;
  int Apogee_count = 0;
-void Apogee_check(double alt,double vel,double acc, double time){
+void Apogee_check(float alt,float vel,float acc, float time){
      if(!Apogee_detected && Liftoff_detect && time >0){
      if(prev_vel > vel && vel <0 && alt>0){ //alt>0 can be removed
      Apogee_count++;
