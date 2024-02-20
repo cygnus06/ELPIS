@@ -1,5 +1,7 @@
 #include "datatelemetry.h"
 #include "GPS.h"
+#include "defines.h"
+#include "Arduino.h"
 void initialize_telemetry(){
 Serial1.begin(9600); //or we can use software serial **check which serial
 }
