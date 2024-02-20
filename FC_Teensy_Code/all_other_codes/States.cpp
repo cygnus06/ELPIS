@@ -65,9 +65,27 @@ void Apogee_check(double alt,double vel,double acc, double time){
      }
      }
      
-     void Check_main_deploy(float alt, float vel){
+void Check_main_deploy(float alt, float vel){
      	if(vel<0 && alt < = 300){
      	digitalWrite(MAIN_PWM, arduino::HIGH);
+	Main_deployed = true;
      	}
      }
+int c = 0;
+void check_touchdown(float vel){
+if (vel < 1 && vel > -1){ //enters if velocity is almost 0
+    c++;    //increments counter
+  }
+  else{
+    c = 0;  //resets counter
+  }
+  if(c > 5){  //enters if counted 5 velocities in a row close to 0
+    c = 0;    //resets counter
+    Touchdown = true;
+  }
+  else{
+    Touchdown = false;
+  }
+}
+
 
