@@ -3,6 +3,8 @@
 #include "defines.h"
 #include "math.h"
 #include "stdio.h"
+//#include "defines.h"
+#include "Arduino.h"
 //#include "Servo-master/src/Servo.h"
                 Servo brakes;
 		brakes.attatch(9);
