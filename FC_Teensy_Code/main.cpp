@@ -47,7 +47,10 @@ void main(){
 	   digitalWrite(DROGUE_PWM, arduino::HIGH);
 
 	}
-	Check_main_deploy(current_alt ,  current_vel);
+        if(!Main_deployed)
+	   Check_main_deploy(current_alt ,  current_vel);
+	if(!Touchdown)
+		
 	}
 	}
 
