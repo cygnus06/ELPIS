@@ -17,7 +17,7 @@ void initialize_SD(){
 
   ELPISfile = SD.open("ELPIS_data.csv", FILE_WRITE);
   if (ELPISfile) {
-	ELPISfile.println("Time(ms),altitude,vel,acc_x,acc_y,acc_z”);
+	ELPISfile.println("Time(ms),altitude,vel,acc_x,acc_y,acc_z");
 	Serial.println("File initialized. ");
   } else {
 	Serial.println("Unable to setup logFile. Logging Failed.");
