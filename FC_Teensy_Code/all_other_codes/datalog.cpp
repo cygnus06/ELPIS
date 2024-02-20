@@ -1,6 +1,8 @@
 #include "datalog.h"
 #include "SD.h"
 #include "Arduino.h"
+#include "defines.h"
+//#include "Arduino.h"
 
 void initialize_SD(){
 //Serial.begin(9600); already initialized
