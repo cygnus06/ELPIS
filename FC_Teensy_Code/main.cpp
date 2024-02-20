@@ -47,7 +47,7 @@ void main(){
 	   digitalWrite(DROGUE_PWM, arduino::HIGH);
 
 	}
-		main_deploy(current_alt ,  current_vel);
+	Check_main_deploy(current_alt ,  current_vel);
 	}
 	}
 
