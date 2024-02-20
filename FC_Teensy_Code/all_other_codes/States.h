@@ -3,7 +3,7 @@
 extern bool LiftOFF_Detect;
 extern bool BurnOut_Detect;
 extern bool Apogee_Detect;
-extern bool TouchDown_Detect;
+extern bool Touchdown;
 extern bool Main_deployed;
 
 void Apogee_check(float alt,float vel,float acc, float time);
