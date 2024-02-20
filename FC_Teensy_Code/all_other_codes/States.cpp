@@ -67,7 +67,7 @@ void Apogee_check(float alt,float vel,float acc, float time){
      }
      
 void Check_main_deploy(float alt, float vel){
-     	if(vel<0 && alt < = 300){
+     	if(vel<0 && alt < = 200){
      	digitalWrite(MAIN_PWM, arduino::HIGH);
 	Main_deployed = true;
      	}
