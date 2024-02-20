@@ -17,6 +17,8 @@ void main(){
 	initialize_telemetry();
 	initialize_GPS();
 	float *acc; //arr of size 7. The arr[6] gives temperature
+
+	while(1){
 	acc = get_MPU6050_readings();
 	float acc_x = acc[0];
 	float acc_y =acc[1];
@@ -50,8 +52,10 @@ void main(){
         if(!Main_deployed)
 	   Check_main_deploy(current_alt ,  current_vel);
 	if(!Touchdown)
-		
+	   check_touchdown(current_vel);
 	}
+	}
+	delay(100);
 	}
 
 }
