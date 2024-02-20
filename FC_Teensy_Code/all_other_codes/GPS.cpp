@@ -1,5 +1,7 @@
 #include "GPS.h"
 #include "Arduino.h"
+#include "defines.h"
+//#include "Arduino.h"
 void initialize_GPS(){
 Serial6.begin(9600);
 }
