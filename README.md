@@ -5,7 +5,7 @@
 
 The Flight computer was named ELPIS which in ancient greek mythology was the spirit of hope✨.  
 
-Folders and their content description  
+## Folders and their content description  
 
 ### 🔴FC_Teensy_Code   
 This is the main SRAD FC code.  
