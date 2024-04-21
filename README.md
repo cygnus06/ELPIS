@@ -3,7 +3,7 @@
 ## Avionics Team Members     
 ### Jahnavi and Adithi.    
 
-The Flight computer was named ELPIS which in ancient greek mythology was the spirit of hope✨.  
+The Flight computer was named ELPIS which in ancient greek mythology meant the spirit of hope✨.  
 
 ## Folders and their content description  
 
